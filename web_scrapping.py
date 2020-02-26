@@ -22,8 +22,8 @@ Prerequisite Actions : -
 
 5. Give your profile url in 'driver.get()' method.
 
-6. Lastly after getting text from line 37 give the extension of file name as '.py', '.cpp', '.java', etc. whatever language your
-   written in.
+6. Lastly after getting text from line 37 give the extension of file name as '.py', '.cpp', '.java', etc. whatever language you
+   writte code in.
 
 **********Happy Coding and Scrapping**********
 
