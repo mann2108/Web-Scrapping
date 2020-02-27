@@ -35,12 +35,10 @@ import time
 
 #Give path too your chrome driver you downloaded compatible with your installed chrome browser
 driver = webdriver.Chrome(executable_path="chromedriver.exe")
-
-for i in range(32,88):
-
+no_of_problems = 88 #Count of problems in your practice section
+for i in range(1,no_of_problems):
     #Give your own user profile link here
-    driver.get("https://www.codechef.com/users/mann2108")
-
+    driver.get("https://www.codechef.com/users/your_user_name")
 
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     url = "/html/body/main/div/div/div/div/div/section[6]/div/article[1]/p[1]/span/a["+str(i)+"]"
@@ -64,6 +62,5 @@ for i in range(32,88):
     file = open(name,'w')
     file.write(code)
     file.close()
-
 
 driver.close()
