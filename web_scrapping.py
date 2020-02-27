@@ -1,7 +1,7 @@
 '''
 @author mann2108
 
-********** WEB Scrapping **********
+**********WEB Scrapping**********
 
 Task :  downloading all the solution codes from codechef practice section located in
         'codechef.com/users/user_name' and store them in 'Problems' directory.
