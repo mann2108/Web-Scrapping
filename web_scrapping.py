@@ -34,9 +34,12 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 #Give path too your chrome driver you downloaded compatible with your installed chrome browser
+
 driver = webdriver.Chrome(executable_path="chromedriver.exe")
 no_of_problems = 88 #Count of problems in your practice section
+
 for i in range(1,no_of_problems):
+
     #Give your own user profile link here
     driver.get("https://www.codechef.com/users/your_user_name")
 
